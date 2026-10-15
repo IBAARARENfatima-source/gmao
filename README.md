@@ -196,14 +196,7 @@ Toutes les routes sont préfixées par `/api` et protégées par JWT, sauf l'aut
 | Utilisateurs / Équipes | `/api/users`, `/api/teams` |
 | Notifications | `/api/notifications` |
 
-## Captures d'écran
-
-<!-- Ajouter des captures dans docs/screenshots/ puis décommenter :
-![Tableau de bord](docs/screenshots/dashboard.png)
-![Plans de maintenance](docs/screenshots/maintenance-plans.png)
-![Espace technicien](docs/screenshots/technician.png)
--->
 
 ## Auteur
 
-**Votre Nom** — [LinkedIn](https://www.linkedin.com/in/votre-profil) · [GitHub](https://github.com/votre-pseudo)
+**Aya Nasser** — [LinkedIn](https://www.linkedin.com/in/aya-nasser-ensias/) 
