@@ -200,3 +200,4 @@ Toutes les routes sont préfixées par `/api` et protégées par JWT, sauf l'aut
 ## Auteur
 
 **Aya Nasser** — [LinkedIn](https://www.linkedin.com/in/aya-nasser-ensias/) 
+**Fatima IBAARAREN** — [LinkedIn](https://www.linkedin.com/in/fatima-ibaararen-ensias-gl) 
