@@ -16,6 +16,7 @@ Application web complète de **gestion de la maintenance industrielle** : suivi 
 ## Sommaire
 
 - [Fonctionnalités](#fonctionnalités)
+- [Assistant IA (RAG)](#assistant-ia-rag)
 - [Rôles et espaces](#rôles-et-espaces)
 - [Architecture](#architecture)
 - [Stack technique](#stack-technique)
@@ -50,6 +51,12 @@ Application web complète de **gestion de la maintenance industrielle** : suivi 
 - Équipes, invitation de collègues, gestion des utilisateurs
 - Notifications : tâche assignée, changement de statut, stock bas, plan échu, etc.
 - Tableaux de bord par rôle et export de données en Excel
+
+## Assistant IA (RAG)
+
+Dans le cadre de SmartMaint, un assistant IA a été développé pour aider les techniciens à exploiter l'historique des pannes. Il suit une approche **Retrieval-Augmented Generation (RAG)** : la recherche retrouve des informations pertinentes dans l'historique, puis le modèle les utilise pour proposer une réponse contextualisée. Ces propositions constituent une aide à l'analyse et ne remplacent pas la validation du technicien.
+
+Le module est basé sur **Python, FastAPI, LangChain et ChromaDB**. Son code n'est pas inclus dans ce dépôt public, qui contient l'application GMAO, son infrastructure et son pipeline CI/CD.
 
 ## Rôles et espaces
 
